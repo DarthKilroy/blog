@@ -23,6 +23,10 @@ export default defineAppConfig({
       },
       navigation: true, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
+      message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
+    },
+    socials: {
+      youtube: 'darthkilroy',
     },
     form: {
       successMessage: 'Message sent. Thank you!'
