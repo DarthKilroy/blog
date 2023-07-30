@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: false, // possible value are : true | false
+        enabled: true, // possible value are : true | false
         repository: 'https://git.sturtz.io/darthkilroy/blog'
       },
       navigation: true, // possible value are : true | false
